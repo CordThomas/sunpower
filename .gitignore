@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+__pycache__/
+environ.db
+atmosphere.db
+sunpower.db
+params.py
+flask/

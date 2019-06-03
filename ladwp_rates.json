@@ -1,0 +1,63 @@
+{
+	"source_rate_times": "https://www.ladwp.com/ladwp/faces/wcnav_externalId/r-cs-elect-rate",
+    "source_rate_costs": "https://www.ladwp.com/ladwp/faces/wcnav_externalId/a-fr-elecrate-schel",
+	"rates": [{
+		"high_peak_period": [{
+			"days_of_week": "0, 1, 2, 3, 4",
+			"time_start": "13:00",
+			"time_end": "16:59",
+			"rate_tier_1": 0.15614,
+			"rate_tier_2": 0.19642,
+			"rate_tier_3": 0.26427,
+			"pac_tier_1": 1.30,
+			"pac_tier_2": 4.90,
+			"pac_tier_3": 15.00
+		}]
+	}, {
+		"low_peak_period": [{
+			"days_of_week": "0, 1, 2, 3, 4",
+			"time_start": "10:00",
+			"time_end": "12:59",
+			"rate_tier_1": 0.15614,
+			"rate_tier_2": 0.19642,
+			"rate_tier_3": 0.26427,
+			"pac_tier_1": 1.30,
+			"pac_tier_2": 4.90,
+			"pac_tier_3": 15.00
+		}, {
+			"days_of_week": "0, 1, 2, 3, 4",
+			"time_start": "17:00",
+			"time_end": "19:59",
+			"rate_tier_1": 0.15614,
+			"rate_tier_2": 0.19642,
+			"rate_tier_3": 0.26427,
+			"pac_tier_1": 1.30,
+			"pac_tier_2": 4.90,
+			"pac_tier_3": 15.00
+		}]
+	}, {
+		"high_peak_period": [{
+				"days_of_week": "0, 1, 2, 3, 4",
+				"time_start": "20:00",
+				"time_end": "9:59",
+				"rate_tier_1": 0.15614,
+				"rate_tier_2": 0.19642,
+				"rate_tier_3": 0.26427,
+				"pac_tier_1": 1.30,
+				"pac_tier_2": 4.90,
+				"pac_tier_3": 15.00
+			},
+			{
+				"days_of_week": "5, 6",
+				"time_start": "00:00",
+				"time_end": "23:59",
+				"rate_tier_1": 0.15614,
+				"rate_tier_2": 0.19642,
+				"rate_tier_3": 0.26427,
+				"pac_tier_1": 1.30,
+				"pac_tier_2": 4.90,
+				"pac_tier_3": 15.00
+			}
+		]
+	}]
+}
